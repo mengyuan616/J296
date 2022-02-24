@@ -30,8 +30,7 @@
 2. Made a copy of the dataset
 3. Froze the first row and made it bold
 
-### Answer the questions:
-#### **Question 1**: Which industries contributed the most to the Republican and Democratic parties? How much was contributed to each party? 
+### **Question 1**: Which industries contributed the most to the Republican and Democratic parties? How much was contributed to each party? 
 The results:
 * The **Media/Entertainment** industry contributed the most to the Democratic parties, with the amount of **$1,880,000**
 * The **Republican/Conservative** industry contributed the most to the Republican parties, with the amount of **$7,514,000**
@@ -44,15 +43,15 @@ How I got there:
 (This is only a part of the table)
 4. Copied the values of this table and pasted them into a new sheet called "Q1"
 5. Sorted by the column for Democratic parties in descending order to find out which industry contributed the most; and then sorted by the column for Republican parties
-
-
+> !['largest amount donated to R'](/q1_table_part1.png)
+> !['largest amount donated to D'](/q1_table_part2.png)
 
 												
-#### **Question 2**: How much did donors from the Misc. Business sector contribute to the Democratic party? Which donors were based in Miami Lakes, FL? 
+### **Question 2**: How much did donors from the Misc. Business sector contribute to the Democratic party? Which donors were based in Miami Lakes, FL? 
 1. Applied filter to the "Sector" column, cleared all values and only selected "Misc Business"
 2. Applied filter to the "Party" column, and only selected "D"
-3. Then copied and pasted the filtered table into a new sheet called "Q2"
-4. 
+3. Then copied and pasted the filtered table into a new sheet called "Q2":
+> !['New sheet for Q2'](/sheet_q2.png)
 5. $3,520,000
 6. Windmere Corp
 
