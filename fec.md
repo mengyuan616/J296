@@ -64,7 +64,7 @@ How I got there:
 
 ### **Question 3**: What percentage of the tobacco industry’s donations does Philip Morris account for? How much is it? 
 The results:
-* Philip Morris acounts for **68.54%** of the tobacco industry's donations.
+* Philip Morris accounts for **68.54%** of the tobacco industry's donations.
 * The amount is **$2,070,000**.
 
 How I got there:
@@ -73,8 +73,21 @@ How I got there:
 > !['New sheet for Q3'](/q3_sheet.png)
 3. Highlighted the whole Q3 sheet and inserted a pivot table into a new sheet
 4. Added "Donor" for rows, "Amount" for values(summarized by SUM and show as Default), then added "Amount" for values again and chose show as % of grand total
-5. Then I got a total like this:
+5. Then I got a table like this, in which I found the amount Philip Morris contributed and what parcentage it accounts for
 > !['results for Q3'](/q3_philipmorris.png)
+
+### **Question 4**: One potential story from the dataset
+**Headline**: <br>
+Democratic parties got the largest donation from a foreign-owned company
+
+**Description**: <br>
+I looked at which company or organization contributed the most the Democratic parties, and a foreign-owned company "Joseph E Seagram & Sons" led the list with an amount of $950,000. It's a U.S. subsidiary of a Canadian liquor company based in New York. It might be interesting to look into this company's political background. I would also analyze how much foreign-owned subsidiaries contributed to the U.S. political campaigns in 1995 and 1996, what kind of role they played and what they gained from that.
+
+Potential sources:
+
+
+
+
 
 
 
