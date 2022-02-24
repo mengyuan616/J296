@@ -31,20 +31,32 @@
 3. Froze the first row and made it bold
 
 ### Answer the questions:
-#### Question 1: Which industries contributed the most to the Republican and Democratic parties? How much was contributed to each party? 
+#### **Question 1**: Which industries contributed the most to the Republican and Democratic parties? How much was contributed to each party? 
+The results:
+* The **Media/Entertainment** industry contributed the most to the Democratic parties, with the amount of **$1,880,000**
+* The **Republican/Conservative** industry contributed the most to the Republican parties, with the amount of **$7,514,000**
+
+How I got there:
 1. Highlighted the whole sheet and inserted a pivot table into a new sheets
 2. Chose "Industry" as rows, "Amount" as values(summarized by SUM) and "Party" as columns
 3. Then I got a table like this:
+> !['Pivot table for question 1'](/pivot_q1.png)
+(This is only a part of the table)
+4. Copied the values of this table and pasted them into a new sheet called "Q1"
+5. Sorted by the column for Democratic parties in descending order to find out which industry contributed the most; and then sorted by the column for Republican parties
 
 
-Media/Entertainment			$1,880,000
-Republican/Conservative	$7,514,000																					
 
-### Question 2: How much did donors from the Misc. Business sector contribute to the Democratic party? Which donors were based in Miami Lakes, FL? 
-1. $3,520,000
-2. Windmere Corp
+												
+#### **Question 2**: How much did donors from the Misc. Business sector contribute to the Democratic party? Which donors were based in Miami Lakes, FL? 
+1. Applied filter to the "Sector" column, cleared all values and only selected "Misc Business"
+2. Applied filter to the "Party" column, and only selected "D"
+3. Then copied and pasted the filtered table into a new sheet called "Q2"
+4. 
+5. $3,520,000
+6. Windmere Corp
 
-### Question 3: What percentage of the tobacco industry’s donations does Philip Morris account for? How much is it? 
+#### **Question 3**: What percentage of the tobacco industry’s donations does Philip Morris account for? How much is it? 
 1. Filtered the dataset by 
 
 
