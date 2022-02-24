@@ -83,17 +83,26 @@ Democratic parties got the largest donation from a foreign-owned company
 **Description**: <br>
 I looked at which company or organization contributed the most the Democratic parties, and a foreign-owned company "Joseph E Seagram & Sons" led the list with an amount of $950,000. It's a U.S. subsidiary of a Canadian liquor company based in New York. It might be interesting to look into this company's political background. I would also analyze how much foreign-owned subsidiaries contributed to the U.S. political campaigns in 1995 and 1996, what kind of role they played and what they gained from that.
 
-Potential sources:
+**Steps I took**: <br>
+1. Applied filter to the "Party" column and selected only "D"
+2. Copied and pasted the data into a new sheet and created a pivot table from that
+3. Added "Amount" for values and "Donor's Business" for rows
+4. Sorted by SUM of amount in descending order
+> !['results for Q4'](/q4_results.png)
+
+**Potential sources**: <br>
+1. PR or Director of Communications from Joseph E Seagram & Sons
+> * If they were involved in any other political activities
+> * Were they associated with any specific candidates
+2. Experts in American politics
+> * Is there a trend of increased participation of foreign companies in U.S. politics?
+> * What are their intentions behind donations and what are some typical relationships they have with political parties?
+3. Some political action committees for Democratic parties
+> * To what extent do you engage donations from foreign-owned companies?
+> * Are there any restrictions on foreign donations?
 
 
-
-
-
-
-
-
-			
-
-
-
+### **Question 5**: What data might be suitable to join with this data to provide context or additional stories? 
+1. Campaign finance data from previous years and more recent years to see if there are any striking trends.
+2. Donations from Joseph E Seagram & Sons and other foreign-owned companies over times. For example, you can see total contributions by party of recipient from Joseph E Seagram & Sons in different years on OpenSecrets: https://www.opensecrets.org/orgs/joseph-e-seagram-sons/totals?id=D000000001
 
