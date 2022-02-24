@@ -48,18 +48,38 @@ How I got there:
 
 												
 ### **Question 2**: How much did donors from the Misc. Business sector contribute to the Democratic party? Which donors were based in Miami Lakes, FL? 
+The results:
+* Donors from the Misc. Business contributed **$3,520,000** to the Democratic parties.
+* **Windmere Corp** was based in Miami Lakes, FL
+
+How I got there:
 1. Applied filter to the "Sector" column, cleared all values and only selected "Misc Business"
 2. Applied filter to the "Party" column, and only selected "D"
 3. Then copied and pasted the filtered table into a new sheet called "Q2":
-> !['New sheet for Q2'](/sheet_q2.png)
-5. $3,520,000
-6. Windmere Corp
+> !['New sheet for Q2'](/q2_sheet.png)
+4. Applied the SUM formula in a blank cell to calculate the total amount: =SUM(B2:B34)
+> !['Amount for D from Misc Biz'](/q2_sum.png)
+5. Applied filter to the "City" column and selected "Miami Lakes" only
+> !['Donors in Miami Lakes'](/q2_miamilakes.png) 
 
-#### **Question 3**: What percentage of the tobacco industry’s donations does Philip Morris account for? How much is it? 
-1. Filtered the dataset by 
+### **Question 3**: What percentage of the tobacco industry’s donations does Philip Morris account for? How much is it? 
+The results:
+* Philip Morris acounts for **68.54%** of the tobacco industry's donations.
+* The amount is **$2,070,000**.
+
+How I got there:
+1. Applied filter to the "Industry" column, and selected Tabacco only
+2. Copied and pasted the current table into a new sheet called "Q3"
+> !['New sheet for Q3'](/q3_sheet.png)
+3. Highlighted the whole Q3 sheet and inserted a pivot table into a new sheet
+4. Added "Donor" for rows, "Amount" for values(summarized by SUM and show as Default), then added "Amount" for values again and chose show as % of grand total
+5. Then I got a total like this:
+> !['results for Q3'](/q3_philipmorris.png)
 
 
-Philip Morris	68.54%	$2,070,000																							
+
+
+			
 
 
 
